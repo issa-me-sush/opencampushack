@@ -42,11 +42,11 @@ const formatTimeRemaining = (nextClaimTime) => {
 
 // Add network configuration at the top
 const EDUCHAIN_NETWORK = {
-  chainId: '0xA0424', // 656476 in hex
+  chainId: '0xA045C', // 656476 in hex
   chainName: 'EduChain Testnet',
   nativeCurrency: {
-    name: 'ETH',
-    symbol: 'ETH',
+    name: 'EDU',
+    symbol: 'EDU',
     decimals: 18
   },
   rpcUrls: ['https://rpc.open-campus-codex.gelato.digital'],
